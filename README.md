@@ -92,7 +92,7 @@ We use the same evaluation protocol as used in [Textual Inversion](https://githu
 
 ## Results of Our Method
 
-<img src='assets/results.jpg'>
+<img src='assets/results.png'>
 
 ## Acknowledgements
 Our code mainly bases on [Diffusers-DreamBooth](https://github.com/huggingface/diffusers/tree/main/examples/dreambooth). A huge thank you to the authors for their valuable contributions.
