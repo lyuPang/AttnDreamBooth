@@ -64,10 +64,10 @@ bash bash_script/train_attndreambooth.sh
 
 ### Inference
 You can run the `bash_script/inference.sh` script to generate images. Before executing the inference command, ensure that you have configured the following parameters:
-+ Line **2**: `learned_embedding_path`: This is the path to the embeddings learned in the first stage.
-+ Line **4**: `checkpoint_path`: This is the path to the fine-tuned models trained in the third stage.
-+ Line **6**: `category`: This is the category of the target concept.
-+ Line **8**: `output_dir`: This is the directory where the generated images will be saved.
++ Line **2**: `learned_embedding_path`. This is the path to the embeddings learned in the first stage.
++ Line **4**: `checkpoint_path`. This is the path to the fine-tuned models trained in the third stage.
++ Line **6**: `category`. This is the category of the target concept.
++ Line **8**: `output_dir`. This is the directory where the generated images will be saved.
 
 To run the inference, use the following command.
 ```bash
