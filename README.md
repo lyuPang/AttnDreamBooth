@@ -48,7 +48,7 @@ You can run the `bash_script/train_attndreambooth.sh` script to train your own m
 + Line **8**: `instance_dir`. This is the directory containing the images of the target concept.
 + Line **10**: `category`. This is the category of the target concept.
 
-For example, to train the concept `child doll` in the [images](#pretrained-checkpoints), you need to set the parameters as follows.
+For example, to train the concept `child doll` in the [Pretrained Checkpoints](#pretrained-checkpoints), you need to set the parameters as follows.
 ```bash
 output_dir="./models/"
 instance_dir="./dataset/child_doll"
@@ -63,7 +63,7 @@ bash bash_script/train_attndreambooth.sh
 + Please refer to `train_attndreambooth.sh` and `train_attndreambooth.py` for more details on all parameters.
 
 ### Inference
-You can run the `bash_script/inference.sh` script to generate images. Before executing the inference command, ensure that you have configured the following parameters:
+You can run the `bash_script/inference.sh` script to generate images. Before executing the inference command, ensure that you have configured the following parameters in `inference.sh`:
 + Line **2**: `learned_embedding_path`. This is the path to the embeddings learned in the first stage.
 + Line **4**: `checkpoint_path`. This is the path to the fine-tuned models trained in the third stage.
 + Line **6**: `category`. This is the category of the target concept.
