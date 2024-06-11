@@ -28,5 +28,10 @@ Our datasets were originally collected and are provided by [Textual Inversion](h
 ## References
 
 ```
-
+@article{pang2024attndreambooth,
+    title={AttnDreamBooth: Towards Text-Aligned Personalized Text-to-Image Generation},
+    author={Lianyu Pang, Jian Yin, Baoquan Zhao, Feize Wu, Fu Lee Wang, Qing Li and Xudong Mao},
+    journal={arXiv preprint arXiv:2406.05000},
+    year={2024}
+}
 ```
