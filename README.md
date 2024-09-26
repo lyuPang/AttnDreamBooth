@@ -63,7 +63,7 @@ bash bash_script/train_attndreambooth.sh
 + All training arguments can be found in `train_attndreambooth.sh` and are set to their defaults according to the official paper.
 + Please refer to `train_attndreambooth.sh` and `train_attndreambooth.py` for more details on all parameters.
 #### Fast Version of AttnDreamBooth
-We have explored a simple yet effective strategy to reduce the training time of our method by increasing the learning rate while simultaneously decreasing both the training steps and the batch size for our third training stage. And We observed that the fast version model performs very closely to the original model for short prompts, but it slightly under-performs for complex prompts.
+We have explored a simple yet effective strategy to reduce the training time of our method by increasing the learning rate while simultaneously decreasing both the training steps and the batch size for our third training stage, which significantly reduces the training time from 20 minutes to 6 minutes on average. And We observed that the fast version model performs very closely to the original model for short prompts, but it slightly under-performs for complex prompts.
 
 To use the fast version of AttnDreamBooth, set the config of stage 3 in `bash_script\train_attndreambooth.sh` as follows.
 ```bash
