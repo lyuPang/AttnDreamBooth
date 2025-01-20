@@ -1118,6 +1118,9 @@ def main(args):
     if vae is not None:
         vae.requires_grad_(False)
 
+    text_encoder.requires_grad_(False)
+    text_encoder.eval()
+    
     if not args.train_unet:
         unet.requires_grad_(False)
         unet.eval()
